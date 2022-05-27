@@ -2,13 +2,13 @@
 
 class Auth extends CI_Controller 
 {
-  // Persiapan v.1.0
   public function logout()
   {
     $this->session->sess_destroy();
     redirect('auth/login');
   }
   
+
 
   public function login()
   {
