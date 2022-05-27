@@ -18,6 +18,7 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	// Sebenarnya tidak ada perubahan, ini kepentingan tugas hotfix sahaja
 	public function index()
 	{
 		$data['barang'] = $this->model_barang->get_all()->result();
