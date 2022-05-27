@@ -9,6 +9,7 @@ class Auth extends CI_Controller
     redirect('auth/login');
   }
 
+  
   public function login()
   {
     $this->form_validation->set_rules('username', ' Username', 'required', [
