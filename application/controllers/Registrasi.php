@@ -2,7 +2,7 @@
 
 class Registrasi extends CI_Controller 
 {
-
+  // Registrasi perlu perbaikan menuju v.1.1
   public function index()
   {
     $this->form_validation->set_rules('nama', ' Nama', 'required', [
